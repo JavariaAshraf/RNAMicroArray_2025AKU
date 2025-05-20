@@ -1,4 +1,4 @@
-# RNAseq_2025AKU
+# RNA2Insights
 Workshop on transcriptome sequencing analysis 
 # 🧬 Transcriptomics Workshop
 
@@ -10,8 +10,7 @@ Welcome to the official repository for the **Transcriptomics Data Analysis Works
 
 - **Title:** Transcriptomics Data Analysis: RNA-Seq from Start to Finish  
 - **Level:** Beginner to Intermediate  
-- **Duration:** 2–3 Days (Adjustable)  
-- **Audience:** Life scientists, bioinformaticians, students, and researchers working with gene expression data  
+-- **Audience:** Life scientists, bioinformaticians, students, and researchers working with gene expression data  
 - **Prerequisites:** Basic command-line and R knowledge preferred
 
 ---
