@@ -1,4 +1,4 @@
-# RNA2Insights
+# Investigating host transcriptional responses through RNA Microarray Analysis - Learn to Use R
 Workshop on transcriptome sequencing analysis 
 # 🧬 Transcriptomics Workshop
 
