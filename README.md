@@ -61,6 +61,8 @@ BiocManager::install("clusterProfiler")
 BiocManager::install("DOSE")
 BiocManager::install("pathview")
 BiocManager::install("enrichplot")
+BiocManager::install("rWikiPathways")
+library(rWikiPathways)
 library(DOSE)
 library(pathview)
 library(clusterProfiler)
@@ -68,6 +70,7 @@ install.packages('devtools')
 require(devtools)
 library(org.Hs.eg.db)
 library(enrichplot)
+library(rWikiPathways)
 setwd("C:/Path to Folder Workshop")
  ```
 
@@ -140,10 +143,27 @@ barplot(Ekegg,
         title = "Enriched Pathways",
         font.size = 8)
 #heatmap
-heatplot(Ekegg, foldChange=geneList, showCategory=10)+ ggtitle("GSE heatmap of KEGG Pathway")
+heatplot(Ekegg, foldChange=geneList, showCategory=10)+ ggtitle("Enrich heatmap of KEGG Pathway")
 
+# wiki Pathway Analysis
+wikienrich <- enrichWP(names(geneList), organism = "Homo sapiens")
+head(wikienrich)
+wikienrich <- setReadable(wikienrich, 'org.Hs.eg.db', 'ENTREZID')
+cluster_summary <- data.frame(wikienrich)
+write.csv(cluster_summary, "wiki-Enrich-workshop.csv")
+#Barplot
+barplot(wikienrich, 
+        showCategory = 10, 
+        title = "Enriched Pathways Of Wiki Pathways",
+        font.size = 8)
+#Heatmap
+heatplot(wikienrich, foldChange=geneList, showCategory=10)+ ggtitle("Enrich heatmap of wiki Pathway")
+ ```
+## STEP3. Gene set Enrichment Analysis
+GO, KEGG and wikiPathway Analysis **R**:
+
+```r
 
  ```
-
 ## 🗂️ Repository Structure
 
