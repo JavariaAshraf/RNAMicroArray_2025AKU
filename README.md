@@ -45,10 +45,10 @@ By the end of this workshop, participants will be able to:
 
 3. **Visualization of Results**
    - Dot plots (dotplot())
-   -Bar plots (barplot())
-   -Enrichment maps (emapplot())
-   -GO tree plots (goplot())
-   -KEGG pathway diagrams (pathview package)
+   - Bar plots (barplot())
+   - Enrichment maps (emapplot())
+   - GO tree plots (goplot())
+   - KEGG pathway diagrams (pathview package)
 
 ---
 
