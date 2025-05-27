@@ -8,7 +8,7 @@ Welcome to the official repository for the **Transcriptomics Data Analysis Works
 
 ## 📅 Workshop Details
 
-- **Title:Investigating host transcriptional responses through RNA Microarray Analysis - Learn to Use R ** 
+- **Title**:**Investigating host transcriptional responses through RNA Microarray Analysis - Learn to Use R**
 - **Level:** Beginner to Intermediate  
 -- **Audience:** Life scientists, bioinformaticians, students, and researchers working with gene expression data  
 - **Prerequisites:** Basic command-line and R knowledge preferred
@@ -47,8 +47,7 @@ By the end of this workshop, participants will be able to:
    - Dot plots dotplot()
    - Bar plots (barplot())
    - Enrichment maps (emapplot())
-   - GO tree plots (goplot())
-   - KEGG pathway diagrams (pathview package)
+   - Category plots (cnetplot())
 
 ---
 ## STEP#1. Loading Packages and setting Working Directory
@@ -59,12 +58,10 @@ if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 BiocManager::install("clusterProfiler")
 BiocManager::install("DOSE")
-BiocManager::install("pathview")
 BiocManager::install("enrichplot")
 BiocManager::install("rWikiPathways")
 library(rWikiPathways)
 library(DOSE)
-library(pathview)
 library(clusterProfiler)
 install.packages('devtools')
 require(devtools)
@@ -125,8 +122,12 @@ enrich_MF <- enrichGO(gene = gene,
 head(enrich_MF)
 #Dotplot
 dotplot(enrich_GO)
-#Enriched GO induced graph:
-goplot(enrich_GO, showCategory = 10)
+#Enriched GO tree plot:
+# Precompute term similarity
+ego <- pairwise_termsim(enrich_GO)
+
+# Now plot
+treeplot(ego)
 
 # KEGG Pathway Analysis
 Ekegg <- enrichKEGG(gene=gene,organism='hsa',
@@ -158,6 +159,9 @@ barplot(wikienrich,
         font.size = 8)
 #Heatmap
 heatplot(wikienrich, foldChange=geneList, showCategory=10)+ ggtitle("Enrich heatmap of wiki Pathway")
+#Category Netplot
+cnetplot(wikienrich, categorySize="pvalue", foldChange=geneList, showCategory=15)+ ggtitle("Category Netplot of Enrich wiki Pathway")
+
  ```
 ## STEP3. Gene set Enrichment Analysis
 GO, KEGG and wikiPathway Analysis **R**:
