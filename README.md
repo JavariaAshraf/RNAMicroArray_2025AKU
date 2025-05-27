@@ -68,7 +68,8 @@ install.packages('devtools')
 require(devtools)
 library(org.Hs.eg.db)
 library(enrichplot)
----
+setwd("C:/......")
+ ```
 
 ## Gene list Preparation
 To prepare your gene list, you may want to convert gene symbols to Entrez IDs or other identifiers. Here's an example in **R**:
@@ -94,6 +95,7 @@ View(d)
 # Filter significant genes (e.g., |logFC| > 2)
 gene <- names(geneList)[abs(geneList) > 2]
 head(gene)
+ ```
 
 ## 🗂️ Repository Structure
 
