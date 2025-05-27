@@ -51,16 +51,21 @@ By the end of this workshop, participants will be able to:
    - KEGG pathway diagrams (pathview package)
 
 ---
-## Preparing Gene Lists for Enrichment
-
-To prepare your gene list, you may want to convert gene symbols to Entrez IDs or other identifiers. Here's an example in **R**:
+## Loading Packages and Preparing Gene Lists
+Load required packages in **R**:
 
 ```r
-# Read in your differential expression results
+
+#To prepare your gene list, you may want to convert gene symbols to Entrez IDs or other identifiers. Here's an example in **R**:
+
+```r
+# Load your csv file into dataframe
 d <- read.csv("Analysis_CoVvsHealthy.csv", header = TRUE)
 
 # Extract data from genelist
 geneList <- d[, 2]
+#d[, 2] means: select all rows from the second column
+#Selects the first column of the same data frame "d[,1]", **as.character(...)** ensures the values are treated as character strings
 names(geneList) <- as.character(d[, 1])
 
 # Sort the gene list (e.g., fold changes)
