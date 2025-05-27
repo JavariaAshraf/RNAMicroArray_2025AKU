@@ -44,7 +44,7 @@ By the end of this workshop, participants will be able to:
       -  gseGO(), gseKEGG() 
 
 3. **Visualization of Results**
-   - Dot plots (dotplot())
+   - Dot plots dotplot()
    - Bar plots (barplot())
    - Enrichment maps (emapplot())
    - GO tree plots (goplot())
