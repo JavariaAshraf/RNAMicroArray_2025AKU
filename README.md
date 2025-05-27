@@ -51,12 +51,27 @@ By the end of this workshop, participants will be able to:
    - KEGG pathway diagrams (pathview package)
 
 ---
-## Loading Packages and Preparing Gene Lists
+## Loading Packages and setting Working Directory
 Load required packages in **R**:
 
 ```r
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("clusterProfiler")
+BiocManager::install("DOSE")
+BiocManager::install("pathview")
+BiocManager::install("enrichplot")
+library(DOSE)
+library(pathview)
+library(clusterProfiler)
+install.packages('devtools')
+require(devtools)
+library(org.Hs.eg.db)
+library(enrichplot)
+---
 
-#To prepare your gene list, you may want to convert gene symbols to Entrez IDs or other identifiers. Here's an example in **R**:
+## Gene list Preparation
+To prepare your gene list, you may want to convert gene symbols to Entrez IDs or other identifiers. Here's an example in **R**:
 
 ```r
 # Load your csv file into dataframe
