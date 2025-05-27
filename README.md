@@ -51,7 +51,7 @@ By the end of this workshop, participants will be able to:
    - KEGG pathway diagrams (pathview package)
 
 ---
-## Loading Packages and setting Working Directory
+## STEP#1. Loading Packages and setting Working Directory
 Load required packages in **R**:
 
 ```r
@@ -68,11 +68,11 @@ install.packages('devtools')
 require(devtools)
 library(org.Hs.eg.db)
 library(enrichplot)
-setwd("C:/......")
+setwd("C:/Path to Folder Workshop")
  ```
 
-## Gene list Preparation
-To prepare your gene list, you may want to convert gene symbols to Entrez IDs or other identifiers. Here's an example in **R**:
+## STEP2. Gene list Preparation
+To prepare your gene list, you have to convert gene symbols to Entrez IDs. Processing of genelist in **R**:
 
 ```r
 # Load your csv file into dataframe
@@ -95,6 +95,54 @@ View(d)
 # Filter significant genes (e.g., |logFC| > 2)
 gene <- names(geneList)[abs(geneList) > 2]
 head(gene)
+ ```
+## STEP3. Over Representation of Analysis
+GO, KEGG and wikiPathway Analysis **R**:
+
+```r
+# GO Ontology (Biological Processes)
+enrich_GO <- enrichGO(gene = gene,
+                      OrgDb = org.Hs.eg.db,
+                      readable = T,
+                      ont = "BP",
+                      pvalueCutoff = 0.05)
+head(enrich_GO)
+#Convert to Entrez IDs
+enrich_GO <- setReadable(enrich_GO, 'org.Hs.eg.db', 'ENTREZID')
+#Saving results in a cluster summary and writing it to csv file
+cluster_summary <- data.frame(enrich_GO)
+write.csv(cluster_summary, "Enrich-analysis-GO.csv")
+# GO Ontology (Molecular Function)
+enrich_MF <- enrichGO(gene = gene,
+                      OrgDb = org.Hs.eg.db,
+                      readable = T,
+                      ont = "MF",
+                      pvalueCutoff = 0.05)
+
+head(enrich_MF)
+#Dotplot
+dotplot(enrich_GO)
+#Enriched GO induced graph:
+goplot(enrich_GO, showCategory = 10)
+
+# KEGG Pathway Analysis
+Ekegg <- enrichKEGG(gene=gene,organism='hsa',
+                   pvalueCutoff = 0.05)
+head(Ekegg)
+#Convert to Entrez IDs
+Ekegg <- setReadable(Ekegg, 'org.Hs.eg.db', 'ENTREZID')
+#Saving results in a cluster summary and writing it to csv file
+cluster_summary <- data.frame(Ekegg)
+write.csv(cluster_summary, "Enrich-analysis-KEGG.csv")
+#Barplot
+barplot(Ekegg, 
+        showCategory = 10, 
+        title = "Enriched Pathways",
+        font.size = 8)
+#heatmap
+heatplot(Ekegg, foldChange=geneList, showCategory=10)+ ggtitle("GSE heatmap of KEGG Pathway")
+
+
  ```
 
 ## 🗂️ Repository Structure
