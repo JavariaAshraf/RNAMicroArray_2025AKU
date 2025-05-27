@@ -8,7 +8,7 @@ Welcome to the official repository for the **Transcriptomics Data Analysis Works
 
 ## 📅 Workshop Details
 
-- **Title:** Transcriptomics Data Analysis: RNA-Seq from Start to Finish  
+- **Title:**Investigating host transcriptional responses through RNA Microarray Analysis - Learn to Use R  
 - **Level:** Beginner to Intermediate  
 -- **Audience:** Life scientists, bioinformaticians, students, and researchers working with gene expression data  
 - **Prerequisites:** Basic command-line and R knowledge preferred
@@ -19,13 +19,10 @@ Welcome to the official repository for the **Transcriptomics Data Analysis Works
 
 By the end of this workshop, participants will be able to:
 
-- Understand the experimental design and workflow of RNA-Seq
-- Perform quality control of raw sequencing data
-- Align RNA-Seq reads to a reference genome
-- Generate gene-level count data
+- Understand the experimental design and workflow of Microarray Transcriptome
 - Conduct differential gene expression analysis
 - Perform functional enrichment (GO, KEGG)
-- Visualize transcriptomic data using heatmaps, volcano plots, and PCA
+- Visualize transcriptomic data using heatmaps, volcano plots, and barplots
 - Interpret biological meaning from statistical outputs
 
 ---
