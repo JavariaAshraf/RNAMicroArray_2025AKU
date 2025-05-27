@@ -8,7 +8,7 @@ Welcome to the official repository for the **Transcriptomics Data Analysis Works
 
 ## 📅 Workshop Details
 
-- **Title:**Investigating host transcriptional responses through RNA Microarray Analysis - Learn to Use R  
+- **Title:Investigating host transcriptional responses through RNA Microarray Analysis - Learn to Use R ** 
 - **Level:** Beginner to Intermediate  
 -- **Audience:** Life scientists, bioinformaticians, students, and researchers working with gene expression data  
 - **Prerequisites:** Basic command-line and R knowledge preferred
@@ -29,19 +29,26 @@ By the end of this workshop, participants will be able to:
 
 ## 🧰 Topics Covered
 
-1. **Introduction to RNA-Seq**
-2. **Quality Control and Trimming**
-   - Tools: `FastQC`, `Trimmomatic` or `fastp`
-3. **Read Alignment**
-   - Tools: `HISAT2`, `STAR`
-4. **Transcript Assembly & Quantification**
-   - Tools: `StringTie`, `featureCounts`, `Salmon`
-5. **Differential Expression Analysis**
-   - Tools: `DESeq2`, `edgeR`, `limma`
-6. **Functional Enrichment Analysis**
-   - Tools: `clusterProfiler`, `GOseq`
-7. **Data Visualization in R**
-   - PCA, heatmaps, volcano plots, MA plots
+1. **Preparing Gene Lists for Enrichment**
+     - Converting gene symbols to Entrez IDs or other identifiers
+     - Filtering up/down-regulated gene sets
+     - Creating ranked gene lists (optional for GSEA)
+2. **Functional Enrichment Analysis Using clusterProfiler**
+   - Gene Ontology (GO) Enrichment
+      - enrichGO() for BP, MF, CC
+   - KEGG Pathway Analysis
+      - enrichKEGG() for pathway-level insights
+   - WikiPathways Enrichment
+      - enrichWP() via the clusterProfiler + ReactomePA or wikipathways packages
+   -Gene Set Enrichment Analysis (GSEA)
+      -  gseGO(), gseKEGG() 
+
+3. **Visualization of Results**
+   - Dot plots (dotplot())
+   -Bar plots (barplot())
+   -Enrichment maps (emapplot())
+   -GO tree plots (goplot())
+   -KEGG pathway diagrams (pathview package)
 
 ---
 
