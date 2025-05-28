@@ -167,6 +167,50 @@ cnetplot(wikienrich, categorySize="pvalue", foldChange=geneList, showCategory=15
 GO, KEGG and wikiPathway Analysis **R**:
 
 ```r
+#GSE GO (Biological Processes)
+gseBP <- gseGO(geneList=geneList,
+                    ont ="BP", minGSSize = 3,
+                     maxGSSize = 800,
+                     pvalueCutoff = 0.05,
+                     verbose = TRUE,
+                     OrgDb = org.Hs.eg.db,
+                     pAdjustMethod = "BH")
+head(gseBP)
+gseBP <- setReadable(gseBP, 'org.Hs.eg.db', 'ENTREZID')
+cluster_summary <- data.frame(gseBP)
+write.csv(cluster_summary, "BP-analysis-GSE.csv")
+#Visualization using dotplot
+dotplot(gseBP, showCategory=20,font.size=8,orderBy = "x", split=".sign") + facet_grid(.~.sign)
+#############################3
+gseall <- gseGO(geneList=geneList,
+                    ont ="ALL", minGSSize = 3,
+                     maxGSSize = 800,
+                     pvalueCutoff = 0.05,
+                     verbose = TRUE,
+                     OrgDb = org.Hs.eg.db,
+                     pAdjustMethod = "BH")
+head(gseall)
+####Enrichment map
+edox <- pairwise_termsim(gseALL)
+emapplot(edox, showCategory = 10)
+#KEGG analysis using GSE
+kkgse <- gseKEGG(geneList     = geneList,
+                       organism     = 'hsa',
+                       minGSSize    = 3,
+                       maxGSSize = 800,
+                       pvalueCutoff = 0.05,
+                       verbose      = TRUE)
+head(kkgse)
+kkgse <- setReadable(kkgse, 'org.Hs.eg.db', 'ENTREZID')
+cluster_summary <- data.frame(kkgse)
+write.csv(cluster_summary, "KEGG-analysis-GSE.csv")
+#Visualization using cnetplot
+cnetplot(kkgse, categorySize="pvalue", foldChange=geneList)
+
+#Ridgeplots
+#Helpful to interpret up/down-regulated pathways
+ridgeplot(kkgse) + labs(x = "enrichment distribution")
+
 
  ```
 ## 🗂️ Repository Structure
