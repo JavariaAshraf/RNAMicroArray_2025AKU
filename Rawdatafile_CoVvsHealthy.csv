@@ -1,0 +1,427 @@
+﻿#%result_name=Analysis_31,,,,,,,,
+#%array_type=Clariom_S_Human,,,,,,,,
+#%annotation=Clariom_S_Human.r1.na36.hg38.a1.transcript.csv,,,,,,,,
+#%comparison=Asymp vs healthy,,,,,,,,
+ID,Asymp Avg (log2),healthy Avg (log2),Fold Change,P-val,FDR P-val,Gene Symbol,Description,Group
+TC1600007014.hg.1,9.76,11.63,-3.65,1.03E-09,1.68E-05,NDE1; MIR484,nudE neurodevelopment protein 1; microRNA 484,Multiple_Complex
+TC0600007377.hg.1,11.58,8.07,11.42,1.57E-09,1.68E-05,HIST1H2BM,"histone cluster 1, H2bm",Coding
+TC1600009935.hg.1,10.88,8.84,4.12,5.44E-09,3.89E-05,SPN,"Memczak2013 ANTISENSE, CDS, coding, INTERNAL best transcript NM_003123",NonCoding
+TC1400007950.hg.1,14.18,12.65,2.9,7.39E-09,3.96E-05,CALM1,"calmodulin 1 (phosphorylase kinase, delta)",Multiple_Complex
+TC1300008998.hg.1,9.02,11.21,-4.56,2.17E-08,6.67E-05,LINC00282,long intergenic non-protein coding RNA 282,NonCoding
+TC1400008056.hg.1,10.81,5.74,33.55,2.18E-08,6.67E-05,IFI27,"interferon, alpha-inducible protein 27",Multiple_Complex
+TC0200006677.hg.1,8,5.84,4.49,5.38E-08,0.0001,RRM2,ribonucleotide reductase M2,Multiple_Complex
+TC1900011852.hg.1,5.45,6.75,-2.47,6.12E-08,0.0001,RFX2,"regulatory factor X, 2 (influences HLA class II expression)",Multiple_Complex
+TC1900010073.hg.1,9.77,11.22,-2.72,6.31E-08,0.0001,LPAR2,lysophosphatidic acid receptor 2,Multiple_Complex
+TC0300008563.hg.1,9.67,11.15,-2.8,6.86E-08,0.0001,DIRC2,disrupted in renal carcinoma 2,Multiple_Complex
+TC0900007457.hg.1,6.35,9.11,-6.76,7.21E-08,0.0001,CNTNAP3P2; CNTNAP3,contactin associated protein-like 3 pseudogene 2; contactin associated protein-like 3,Multiple_Complex
+TC0400008105.hg.1,9.85,8.42,2.7,7.36E-08,0.0001,HERC6,HECT and RLD domain containing E3 ubiquitin protein ligase family member 6,Multiple_Complex
+TC0600012814.hg.1,13.17,12.01,2.23,8.03E-08,0.0001,CD164,"CD164 molecule, sialomucin",Multiple_Complex
+TC1400008905.hg.1,9.17,7.9,2.4,8.36E-08,0.0001,SPTSSA,"serine palmitoyltransferase, small subunit A",Multiple_Complex
+TC0300009855.hg.1,8.65,10.75,-4.28,1.21E-07,0.0002,IL1RAP,interleukin 1 receptor accessory protein,Multiple_Complex
+TC1900007108.hg.1,15.39,13.98,2.66,1.32E-07,0.0002,CALR,calreticulin,Multiple_Complex
+TC0X00009387.hg.1,7.47,9.11,-3.13,1.34E-07,0.0002,RPGR,retinitis pigmentosa GTPase regulator,Multiple_Complex
+TC1300008760.hg.1,11.7,8.22,11.12,1.41E-07,0.0002,EPSTI1,epithelial stromal interaction 1 (breast),Multiple_Complex
+TC0900010968.hg.1,9.91,8.62,2.44,1.51E-07,0.0002,TRIM14,tripartite motif containing 14,Multiple_Complex
+TC1100008010.hg.1,8.21,9.27,-2.09,2.15E-07,0.0002,CDC42EP2,CDC42 effector protein (Rho GTPase binding) 2,Multiple_Complex
+TC2000007479.hg.1,9.99,14.67,-25.69,2.34E-07,0.0002,PI3,"peptidase inhibitor 3, skin-derived",Multiple_Complex
+TC0900010959.hg.1,6.57,9.54,-7.81,2.65E-07,0.0002,HEMGN,hemogen,Multiple_Complex
+TC2000009376.hg.1,11.33,12.39,-2.09,3.00E-07,0.0002,STAU1,staufen double-stranded RNA binding protein 1,Multiple_Complex
+TC1100009942.hg.1,7.16,5.47,3.24,3.60E-07,0.0003,TRIM22,"Memczak2013 ANTISENSE, CDS, coding, INTERNAL, UTR5 best transcript NM_001199573",NonCoding
+TC1800006506.hg.1,14.07,12.59,2.78,3.92E-07,0.0003,MYL12A,myosin light chain 12A,Multiple_Complex
+TC1800009268.hg.1,7.63,9.98,-5.11,4.10E-07,0.0003,DSC2,desmocollin 2,Multiple_Complex
+TC1500008485.hg.1,9.04,11.1,-4.17,4.36E-07,0.0003,IGF1R,insulin-like growth factor 1 receptor,Multiple_Complex
+TC0600013431.hg.1,6.62,7.94,-2.49,4.45E-07,0.0003,PLAGL1; HYMAI,pleiomorphic adenoma gene-like 1; hydatidiform mole associated and imprinted (non-protein coding),Multiple_Complex
+TC0100007574.hg.1,14.5,16.95,-5.49,5.65E-07,0.0003,EPB41,erythrocyte membrane protein band 4.1,Multiple_Complex
+TC1200008726.hg.1,10.92,12.84,-3.79,5.66E-07,0.0003,TCP11L2,"t-complex 11, testis-specific-like 2",Multiple_Complex
+TC0800012371.hg.1,15.19,11.2,15.91,6.25E-07,0.0003,LY6E,"lymphocyte antigen 6 complex, locus E",Multiple_Complex
+TC1200012708.hg.1,14.63,10.55,16.81,6.80E-07,0.0004,OAS1,2-5-oligoadenylate synthetase 1,Multiple_Complex
+TC1200008920.hg.1,11.17,7.71,10.96,6.94E-07,0.0004,OAS3,2-5-oligoadenylate synthetase 3,Multiple_Complex
+TC0X00008824.hg.1,12.41,11.38,2.04,8.60E-07,0.0004,TKTL1,transketolase-like 1,Multiple_Complex
+TC0500010680.hg.1,9.74,7.82,3.8,8.62E-07,0.0004,PARP8,"Memczak2013 ANTISENSE, CDS, coding, INTERNAL, intronic best transcript NM_001178056",NonCoding
+TC1700010254.hg.1,14.49,15.69,-2.3,9.03E-07,0.0004,SSH2,slingshot protein phosphatase 2,Multiple_Complex
+TC2000008228.hg.1,8.17,6.98,2.29,9.61E-07,0.0004,SIGLEC1,"sialic acid binding Ig-like lectin 1, sialoadhesin",Coding
+TC0600011225.hg.1,14.71,13.65,2.09,9.99E-07,0.0005,HIST1H2AJ,"histone cluster 1, H2aj",Multiple_Complex
+TC0200011075.hg.1,16.04,14.93,2.16,1.20E-06,0.0005,PTMA,"prothymosin, alpha",Multiple_Complex
+TC0200016626.hg.1,9.3,10.82,-2.86,1.21E-06,0.0005,MBOAT2,membrane bound O-acyltransferase domain containing 2,Multiple_Complex
+TC2200006540.hg.1,7.99,5.05,7.65,1.30E-06,0.0005,USP18,ubiquitin specific peptidase 18,Multiple_Complex
+TC1100012966.hg.1,8.78,10.73,-3.88,1.32E-06,0.0005,MICAL2,"microtubule associated monooxygenase, calponin and LIM domain containing 2",Multiple_Complex
+TC0X00009493.hg.1,4.78,5.92,-2.2,1.36E-06,0.0005,EFHC2,EF-hand domain (C-terminal) containing 2,Multiple_Complex
+TC0600011235.hg.1,7.24,6.16,2.1,1.38E-06,0.0005,HIST1H2AM; HIST1H3J,"histone cluster 1, H2am; histone cluster 1, H3j",Multiple_Complex
+TC2000008678.hg.1,13.03,11.28,3.36,1.76E-06,0.0007,CST3,cystatin C,Multiple_Complex
+TC0600007274.hg.1,9.58,8.49,2.13,1.84E-06,0.0007,HIST1H2BD,"histone cluster 1, H2bd",Coding
+TC2000007820.hg.1,6.42,7.9,-2.79,1.96E-06,0.0007,CASS4,Cas scaffolding protein family member 4,Multiple_Complex
+TC0600011124.hg.1,6.9,5.2,3.25,2.16E-06,0.0008,HIST1H3B,"histone cluster 1, H3b",Coding
+TC0400006706.hg.1,10.05,11.45,-2.64,2.18E-06,0.0008,TBC1D14,"TBC1 domain family, member 14",Multiple_Complex
+TC0X00010837.hg.1,14.12,16.83,-6.54,2.29E-06,0.0008,MBNL3,muscleblind-like splicing regulator 3,Multiple_Complex
+TC1600008164.hg.1,9.02,10.19,-2.25,2.37E-06,0.0008,FAM65A,"family with sequence similarity 65, member A",Multiple_Complex
+TC0200011624.hg.1,11.65,7.82,14.23,2.40E-06,0.0008,CMPK2,"cytidine monophosphate (UMP-CMP) kinase 2, mitochondrial",Multiple_Complex
+TC0X00007026.hg.1,11.78,12.8,-2.03,2.45E-06,0.0008,USP9X,"ubiquitin specific peptidase 9, X-linked",Multiple_Complex
+TC1000008881.hg.1,12.21,14.69,-5.61,2.53E-06,0.0008,MXI1,"MAX interactor 1, dimerization protein",Multiple_Complex
+TC0600014236.hg.1,8.6,6.95,3.13,2.80E-06,0.0009,TXNDC5,thioredoxin domain containing 5 (endoplasmic reticulum),Multiple_Complex
+TC2200008036.hg.1,8.17,4.88,9.82,2.90E-06,0.0009,USP41,ubiquitin specific peptidase 41,Multiple_Complex
+TC2100007208.hg.1,15.91,11.54,20.6,3.44E-06,0.001,MX1,MX dynamin-like GTPase 1,Multiple_Complex
+TC1300008424.hg.1,9.14,10.83,-3.22,3.77E-06,0.0011,USP12,ubiquitin specific peptidase 12,Multiple_Complex
+TC2200009219.hg.1,14.38,11.4,7.9,3.87E-06,0.0011,IGLL5; MIR5571; IGLC1; IGLC2; IGLV2-5; IGLV3-1; IGLJ1,immunoglobulin lambda-like polypeptide 5; microRNA 5571; immunoglobulin lambda constant 1 (Mcg marker); immunoglobulin lambda constant 2 (Kern-Oz- marker); immunoglobulin lambda variable 2-5 (pseudogene); immunoglobulin lambda variable 3-1; immunoglobulin lambda joining 1,Multiple_Complex
+TC1900009838.hg.1,10.68,12.15,-2.78,3.89E-06,0.0011,ADGRE2,adhesion G protein-coupled receptor E2,Multiple_Complex
+TC1600009683.hg.1,12.86,14.28,-2.67,3.92E-06,0.0011,IGSF6,"immunoglobulin superfamily, member 6",Multiple_Complex
+TC2000009968.hg.1,8.61,10.46,-3.6,4.02E-06,0.0011,SIRPB2,signal-regulatory protein beta 2,Multiple_Complex
+TC0100013369.hg.1,7.44,6.21,2.35,4.18E-06,0.0011,STMN1; MIR3917,stathmin 1; microRNA 3917,Multiple_Complex
+TC0100016625.hg.1,14.91,16.12,-2.32,4.24E-06,0.0011,GLUL,glutamate-ammonia ligase,Multiple_Complex
+TC0600010797.hg.1,6.54,7.88,-2.52,4.60E-06,0.0012,MAK,male germ cell-associated kinase,Coding
+TC1900011251.hg.1,14.77,12.7,4.22,4.64E-06,0.0012,NKG7,natural killer cell granule protein 7,Coding
+TC1200008921.hg.1,12.13,8.85,9.72,4.68E-06,0.0012,OAS2,2-5-oligoadenylate synthetase 2,Multiple_Complex
+TC0400011744.hg.1,13.66,12.39,2.4,4.69E-06,0.0012,ANXA5,annexin A5,Multiple_Complex
+TC1700008984.hg.1,13.98,15.48,-2.82,5.13E-06,0.0013,SEC14L1; SCARNA16; SNHG20; MIR6516,SEC14-like lipid binding 1; small Cajal body-specific RNA 16; small nucleolar RNA host gene 20; microRNA 6516,Multiple_Complex
+TC0800008300.hg.1,9.44,10.69,-2.38,5.19E-06,0.0013,CPQ,carboxypeptidase Q,Multiple_Complex
+TC0400008879.hg.1,10.37,11.79,-2.68,5.28E-06,0.0013,GAB1,GRB2-associated binding protein 1,Multiple_Complex
+TC1100009301.hg.1,9.06,10.44,-2.61,5.34E-06,0.0013,TBCEL,tubulin folding cofactor E-like,Multiple_Complex
+TSUnmapped00000502.hg.1,10.1,11.38,-2.43,5.50E-06,0.0013,MLXIP,MLX interacting protein,NonCoding
+TC1900009625.hg.1,9.95,11.46,-2.84,5.57E-06,0.0013,ICAM3,intercellular adhesion molecule 3,Multiple_Complex
+TC0600011232.hg.1,8.24,6.61,3.11,5.78E-06,0.0013,HIST1H1B,"histone cluster 1, H1b",Multiple_Complex
+TSUnmapped00000103.hg.1,9.58,11.16,-2.99,5.98E-06,0.0014,MLXIP,MLX interacting protein,NonCoding
+TC0100008815.hg.1,14.02,8.13,59.44,6.02E-06,0.0014,IFI44L,interferon-induced protein 44-like,Multiple_Complex
+TC1100006876.hg.1,5.51,6.82,-2.48,6.37E-06,0.0014,MICALCL,MICAL C-terminal like,Multiple_Complex
+TC1800006448.hg.1,7.14,5.77,2.59,6.41E-06,0.0014,TYMS,thymidylate synthetase,Multiple_Complex
+TC1400009147.hg.1,10.97,12.47,-2.83,7.48E-06,0.0016,PYGL,"phosphorylase, glycogen, liver",Multiple_Complex
+TC0600011233.hg.1,8.32,7.22,2.14,7.60E-06,0.0016,HIST1H3I,"histone cluster 1, H3i",Coding
+TC1000006802.hg.1,7.58,9.23,-3.14,7.69E-06,0.0016,CAMK1D,calcium/calmodulin-dependent protein kinase ID,Multiple_Complex
+TC1100012121.hg.1,17.6,15.71,3.72,7.80E-06,0.0016,TMEM123,transmembrane protein 123,Multiple_Complex
+TC0400012366.hg.1,11.57,9.08,5.63,7.94E-06,0.0016,DDX60,DEAD (Asp-Glu-Ala-Asp) box polypeptide 60,Multiple_Complex
+TC0400010612.hg.1,5.9,7.09,-2.29,7.95E-06,0.0016,NFXL1,"nuclear transcription factor, X-box binding-like 1",Multiple_Complex
+TC1100013015.hg.1,8.93,10.01,-2.11,8.36E-06,0.0017,MS4A14,"membrane-spanning 4-domains, subfamily A, member 14",Multiple_Complex
+TC0500013392.hg.1,8.62,10.88,-4.79,8.51E-06,0.0017,CCNJL,cyclin J-like,Multiple_Complex
+TC0900009933.hg.1,7.83,9.04,-2.31,8.59E-06,0.0017,FAM214B,"family with sequence similarity 214, member B",Multiple_Complex
+TC1100011184.hg.1,9.7,10.86,-2.23,9.14E-06,0.0017,SF1,"Memczak2013 ALT_ACCEPTOR, ALT_DONOR, coding, INTERNAL, intronic best transcript NM_201998",NonCoding
+TC1900009316.hg.1,15.38,16.48,-2.15,9.41E-06,0.0018,EEF2; SNORD37,"eukaryotic translation elongation factor 2; small nucleolar RNA, C/D box 37",Multiple_Complex
+TC0800007027.hg.1,13.63,15.18,-2.92,1.01E-05,0.0018,SLC25A37,"solute carrier family 25 (mitochondrial iron transporter), member 37",Multiple_Complex
+TC1700009256.hg.1,9.85,10.95,-2.15,1.08E-05,0.0019,NARF,nuclear prelamin A recognition factor,Multiple_Complex
+TC2000009970.hg.1,13.42,15.03,-3.05,1.12E-05,0.002,SIRPB1,signal-regulatory protein beta 1,Multiple_Complex
+TC1600008007.hg.1,9.73,11.03,-2.45,1.14E-05,0.002,ADGRG3,adhesion G protein-coupled receptor G3,Multiple_Complex
+TC0400011291.hg.1,7.65,6.29,2.57,1.19E-05,0.0021,HERC6,"Memczak2013 ANTISENSE, coding, INTERNAL, intronic best transcript NM_001165136",NonCoding
+TC0600007290.hg.1,8.39,7.35,2.05,1.20E-05,0.0021,HIST1H2BH,"histone cluster 1, H2bh",Coding
+TC0600007585.hg.1,10.06,9.01,2.07,1.28E-05,0.0021,MICB,MHC class I polypeptide-related sequence B,Multiple_Complex
+TC1700007451.hg.1,9.76,11.18,-2.66,1.32E-05,0.0021,CPD,carboxypeptidase D,Multiple_Complex
+TC1100009309.hg.1,13.35,14.84,-2.81,1.33E-05,0.0021,SORL1,"sortilin-related receptor, L(DLR class) A repeats containing",Multiple_Complex
+TC0100013445.hg.1,13.53,8.97,23.61,1.36E-05,0.0021,IFI6,"interferon, alpha-inducible protein 6",Multiple_Complex
+TC0100016112.hg.1,13.98,15.23,-2.38,1.44E-05,0.0022,TAGLN2,transgelin 2,Multiple_Complex
+TC0700007034.hg.1,15.44,17.28,-3.58,1.45E-05,0.0022,CREB5,cAMP responsive element binding protein 5,Multiple_Complex
+TC0200016402.hg.1,12.94,8.14,27.98,1.45E-05,0.0022,RSAD2,radical S-adenosyl methionine domain containing 2,Multiple_Complex
+TC0500013235.hg.1,10.78,11.82,-2.05,1.46E-05,0.0022,FAM53C,"family with sequence similarity 53, member C",Multiple_Complex
+TC1400008764.hg.1,12.42,11.11,2.48,1.47E-05,0.0022,GZMB,granzyme B,Coding
+TC1100013012.hg.1,10.96,12,-2.06,1.61E-05,0.0023,STX3,syntaxin 3,Multiple_Complex
+TC2100008424.hg.1,10.88,12.47,-3.01,1.63E-05,0.0023,SLC19A1,"solute carrier family 19 (folate transporter), member 1",Multiple_Complex
+TC0200010795.hg.1,10.48,12.23,-3.37,1.72E-05,0.0024,SLC11A1,"solute carrier family 11 (proton-coupled divalent metal ion transporter), member 1",Multiple_Complex
+TC0300013330.hg.1,8.33,9.86,-2.89,1.83E-05,0.0025,DCUN1D1,"DCN1, defective in cullin neddylation 1, domain containing 1",Multiple_Complex
+TC0400010961.hg.1,13.74,10.22,11.51,1.83E-05,0.0025,JCHAIN,joining chain of multimeric IgA and IgM,Multiple_Complex
+TC1700010827.hg.1,9.5,7.84,3.16,1.85E-05,0.0025,GRN,"Memczak2013 ANTISENSE, CDS, coding, INTERNAL best transcript NM_002087",NonCoding
+TC1800006889.hg.1,10.46,12.69,-4.69,1.89E-05,0.0026,RIOK3,RIO kinase 3,Multiple_Complex
+TC0100007243.hg.1,8.78,11.78,-7.99,1.91E-05,0.0026,ALPL,"alkaline phosphatase, liver/bone/kidney",Multiple_Complex
+TC1100008041.hg.1,13.31,11.82,2.8,2.05E-05,0.0027,CTSW,cathepsin W,Multiple_Complex
+TC1500009904.hg.1,11.33,12.72,-2.61,2.11E-05,0.0027,TLE3,transducin-like enhancer of split 3,Multiple_Complex
+TC1900011399.hg.1,11.03,12.44,-2.65,2.11E-05,0.0027,MBOAT7,membrane bound O-acyltransferase domain containing 7,Multiple_Complex
+TC1800007198.hg.1,8.51,10.65,-4.4,2.12E-05,0.0027,SLC14A1,"solute carrier family 14 (urea transporter), member 1 (Kidd blood group)",Multiple_Complex
+TC0100007484.hg.1,14.81,15.99,-2.27,2.32E-05,0.0029,ZDHHC18,"zinc finger, DHHC-type containing 18",Multiple_Complex
+TC0100012329.hg.1,9.1,11.08,-3.96,2.34E-05,0.0029,OR2W3,"olfactory receptor, family 2, subfamily W, member 3",Coding
+TC0900010063.hg.1,6.38,7.93,-2.92,2.48E-05,0.003,CNTNAP3,contactin associated protein-like 3,Multiple_Complex
+TC0200015538.hg.1,12.61,14.06,-2.73,2.49E-05,0.003,KLF7,Kruppel-like factor 7 (ubiquitous),Multiple_Complex
+TC1000012482.hg.1,11.26,12.43,-2.24,2.51E-05,0.003,ENTPD1,ectonucleoside triphosphate diphosphohydrolase 1,Multiple_Complex
+TC0100017118.hg.1,8.05,9.55,-2.83,2.53E-05,0.003,YOD1,YOD1 deubiquitinase,Multiple_Complex
+TC0300007278.hg.1,10.57,11.83,-2.39,2.55E-05,0.003,NBEAL2,neurobeachin like 2,Multiple_Complex
+TC0100013471.hg.1,11.56,12.88,-2.5,2.57E-05,0.003,PTAFR,platelet-activating factor receptor,Multiple_Complex
+TC0200008268.hg.1,16.25,14.09,4.49,2.61E-05,0.0031,GNLY,granulysin,Multiple_Complex
+TC0200016115.hg.1,10.68,9.65,2.04,3.00E-05,0.0034,ARL4C,ADP-ribosylation factor like GTPase 4C,Multiple_Complex
+TC2000009602.hg.1,10.41,8.58,3.56,3.06E-05,0.0034,ZBP1,Z-DNA binding protein 1,Multiple_Complex
+TC0200009955.hg.1,8.18,9.76,-3,3.22E-05,0.0036,CYBRD1,cytochrome b reductase 1,Multiple_Complex
+TC1900008419.hg.1,7.77,8.88,-2.16,3.24E-05,0.0036,C5AR2,complement component 5a receptor 2,Multiple_Complex
+TC2000009874.hg.1,14.72,16.72,-4,3.25E-05,0.0036,PSMF1,proteasome inhibitor subunit 1,Multiple_Complex
+TC2000006861.hg.1,7.95,6.83,2.16,3.30E-05,0.0036,RIN2,Ras and Rab interactor 2,Multiple_Complex
+TC1900009832.hg.1,12.22,13.81,-3.02,3.30E-05,0.0036,ADGRE3,adhesion G protein-coupled receptor E3,Coding
+TC0100015866.hg.1,11.14,10.07,2.11,3.35E-05,0.0036,S100A4,S100 calcium binding protein A4,Multiple_Complex
+TC1800008776.hg.1,9.09,10.96,-3.66,3.78E-05,0.0038,FECH,ferrochelatase,Multiple_Complex
+TC0200016682.hg.1,11.92,13.12,-2.29,3.81E-05,0.0038,PPP3R1,"protein phosphatase 3, regulatory subunit B, alpha",Coding
+TC0600014235.hg.1,9.1,7.78,2.49,3.82E-05,0.0038,BLOC1S5-TXNDC5,BLOC1S5-TXNDC5 readthrough (NMD candidate),Multiple_Complex
+TC0300007194.hg.1,7.64,8.72,-2.11,4.20E-05,0.0041,ABHD5,abhydrolase domain containing 5,Multiple_Complex
+TC0100008025.hg.1,14.76,15.9,-2.21,4.38E-05,0.0042,YBX1,Y box binding protein 1,Multiple_Complex
+TC0800009529.hg.1,7.84,9.12,-2.44,4.70E-05,0.0045,PPP1R3B,"protein phosphatase 1, regulatory subunit 3B",Coding
+TC2000008279.hg.1,8.1,7.04,2.09,4.79E-05,0.0045,PCNA,proliferating cell nuclear antigen,Multiple_Complex
+TC0400011383.hg.1,9.57,11.96,-5.26,4.81E-05,0.0045,TSPAN5,tetraspanin 5,Multiple_Complex
+TC0300009799.hg.1,8.08,6.32,3.38,4.84E-05,0.0045,RTP4,receptor (chemosensory) transporter protein 4,Coding
+TC0400012019.hg.1,6.6,9.14,-5.81,4.84E-05,0.0045,GYPA,glycophorin A (MNS blood group),Multiple_Complex
+TC0100008816.hg.1,11.68,7.88,13.96,4.90E-05,0.0046,IFI44,interferon-induced protein 44,Multiple_Complex
+TC0800007080.hg.1,16.63,18.48,-3.61,4.92E-05,0.0046,BNIP3L,BCL2/adenovirus E1B 19kDa interacting protein 3-like,Multiple_Complex
+TC1200012190.hg.1,10.43,8.26,4.49,4.94E-05,0.0046,OASL,2-5-oligoadenylate synthetase-like,Multiple_Complex
+TC1300008997.hg.1,8,9.5,-2.83,5.06E-05,0.0046,DHRS12,dehydrogenase/reductase (SDR family) member 12,Multiple_Complex
+TC0100009572.hg.1,11.93,14.27,-5.05,5.08E-05,0.0046,FAM46C,"family with sequence similarity 46, member C",Coding
+TC0200011720.hg.1,10.2,11.38,-2.26,5.12E-05,0.0046,ODC1; SNORA80B,"ornithine decarboxylase 1; small nucleolar RNA, H/ACA box 80B",Multiple_Complex
+TC0X00006581.hg.1,9.62,10.77,-2.22,5.18E-05,0.0047,TBL1X,transducin (beta)-like 1X-linked,Multiple_Complex
+TC2000009969.hg.1,8.73,9.79,-2.09,5.24E-05,0.0047,SIRPD,signal-regulatory protein delta,Multiple_Complex
+TC0600011777.hg.1,13.5,14.95,-2.73,5.82E-05,0.0051,TREM1,triggering receptor expressed on myeloid cells 1,Multiple_Complex
+TC2100007452.hg.1,6.37,5.3,2.09,6.09E-05,0.0052,COL6A2,"Jeck2013 ALT_ACCEPTOR, ALT_DONOR, coding, INTERNAL, intronic best transcript NM_058175",NonCoding
+TC0200010410.hg.1,9.87,7.49,5.2,6.12E-05,0.0052,SPATS2L,"spermatogenesis associated, serine-rich 2-like",Multiple_Complex
+TC0200009829.hg.1,13.17,14.39,-2.34,6.14E-05,0.0052,GCA,"grancalcin, EF-hand calcium binding protein",Multiple_Complex
+TC0X00006626.hg.1,11.81,13.38,-2.99,6.29E-05,0.0053,TLR8,toll-like receptor 8,Coding
+TC0600007067.hg.1,8.69,10.6,-3.75,6.52E-05,0.0055,GMPR,guanosine monophosphate reductase,Multiple_Complex
+TC0600008120.hg.1,8.54,10.41,-3.66,6.53E-05,0.0055,TMEM63B,transmembrane protein 63B,Multiple_Complex
+TC1100008477.hg.1,11.51,12.87,-2.56,6.78E-05,0.0056,DGAT2,diacylglycerol O-acyltransferase 2,Multiple_Complex
+TC0600014083.hg.1,8.35,7.04,2.48,6.92E-05,0.0057,HIST1H2AG,"histone cluster 1, H2ag",Coding
+TC0X00007204.hg.1,7.88,9.04,-2.23,7.17E-05,0.0058,GATA1,GATA binding protein 1 (globin transcription factor 1),Multiple_Complex
+TC0X00010880.hg.1,6.5,7.58,-2.12,7.22E-05,0.0058,MOSPD1,motile sperm domain containing 1,Multiple_Complex
+TC0100017471.hg.1,11.84,12.98,-2.21,7.29E-05,0.0058,WDR26; MIR4742,WD repeat domain 26; microRNA 4742,Multiple_Complex
+TC0600011142.hg.1,6.57,5.16,2.66,7.44E-05,0.0059,HIST1H3G,"histone cluster 1, H3g",Coding
+TC0400006951.hg.1,12.74,11.22,2.88,7.48E-05,0.0059,CD38,CD38 molecule,Multiple_Complex
+TC1000010925.hg.1,12.52,11.31,2.32,7.54E-05,0.0059,PRF1,perforin 1 (pore forming protein),Multiple_Complex
+TC0X00011223.hg.1,11.83,13.63,-3.49,7.81E-05,0.0061,MPP1,"membrane protein, palmitoylated 1",Multiple_Complex
+TC0X00008230.hg.1,10.66,12.28,-3.09,8.23E-05,0.0062,IL13RA1,"interleukin 13 receptor, alpha 1",Multiple_Complex
+TC0300008371.hg.1,5.41,6.76,-2.56,8.26E-05,0.0062,GRAMD1C,GRAM domain containing 1C,Multiple_Complex
+TC0600007380.hg.1,6.92,5.82,2.15,9.18E-05,0.0067,HIST1H2AL; HIST1H2BN,"histone cluster 1, H2al; histone cluster 1, H2bn",Multiple_Complex
+TC0400012150.hg.1,13.76,15.33,-2.96,9.28E-05,0.0068,TMEM154,transmembrane protein 154,Multiple_Complex
+TC1900007891.hg.1,10.98,9.11,3.67,9.48E-05,0.0068,HCST,hematopoietic cell signal transducer,Multiple_Complex
+TC1000008382.hg.1,6.79,8.04,-2.39,9.86E-05,0.0069,LIPN,"lipase, family member N",Coding
+TC0100011197.hg.1,4.17,5.44,-2.4,0.0001,0.0071,SHISA4,shisa family member 4,Multiple_Complex
+TC2000007817.hg.1,8.93,10.14,-2.31,0.0001,0.0072,FAM210B,"family with sequence similarity 210, member B",Multiple_Complex
+TC1400007354.hg.1,12.46,13.56,-2.15,0.0001,0.0074,PPM1A,"protein phosphatase, Mg2+/Mn2+ dependent, 1A",Multiple_Complex
+TC0500008544.hg.1,9.05,8.03,2.02,0.0001,0.0074,LMNB1,lamin B1,Multiple_Complex
+TC0100013602.hg.1,6.87,7.88,-2.02,0.0001,0.0075,TMEM234,transmembrane protein 234,Multiple_Complex
+TC0500009562.hg.1,9.86,10.98,-2.18,0.0001,0.0075,HRH2,histamine receptor H2,Multiple_Complex
+TC0600011535.hg.1,10.14,11.3,-2.24,0.0001,0.0076,RGL2,ral guanine nucleotide dissociation stimulator-like 2,Multiple_Complex
+TC1200011385.hg.1,6.86,8.29,-2.69,0.0001,0.0076,LIN7A,lin-7 homolog A (C. elegans),Multiple_Complex
+TC1600009202.hg.1,13,14.18,-2.26,0.0001,0.0076,CREBBP,CREB binding protein,Multiple_Complex
+TC0X00006446.hg.1,10.37,11.42,-2.07,0.0001,0.0078,CSF2RA,"colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage)",Multiple_Complex
+TC0700010585.hg.1,10.15,11.79,-3.11,0.0001,0.0078,JAZF1,JAZF zinc finger 1,Multiple_Complex
+TC0300009727.hg.1,6.05,7.08,-2.04,0.0001,0.0078,VPS8,"Transcript Identified by AceView, Entrez Gene ID(s) 23355",Unassigned
+TC1600009530.hg.1,10.97,12.24,-2.41,0.0001,0.0078,KIAA0430; MIR6506,KIAA0430; microRNA 6506,Multiple_Complex
+TC0600014055.hg.1,7.98,9.44,-2.75,0.0001,0.0078,NQO2,"NAD(P)H dehydrogenase, quinone 2",Multiple_Complex
+TC0600011773.hg.1,9.48,10.87,-2.62,0.0001,0.0078,TREML2,triggering receptor expressed on myeloid cells-like 2,Coding
+TC0700009256.hg.1,10.76,12.13,-2.58,0.0001,0.0079,C7orf73,chromosome 7 open reading frame 73,Multiple_Complex
+TC0X00008794.hg.1,11.79,14.68,-7.44,0.0001,0.008,SLC6A8,"solute carrier family 6 (neurotransmitter transporter), member 8",Multiple_Complex
+TC1700012387.hg.1,9.84,8.6,2.36,0.0001,0.0084,SLFN12L,schlafen family member 12-like,Multiple_Complex
+TC0300009122.hg.1,4.61,6,-2.63,0.0001,0.0085,CPA3,carboxypeptidase A3 (mast cell),Multiple_Complex
+TC0100014910.hg.1,10.59,9.41,2.26,0.0001,0.0086,TGFBR3,transforming growth factor beta receptor III,Multiple_Complex
+TC0600007273.hg.1,12.73,11.5,2.34,0.0001,0.0088,HIST1H1E,"histone cluster 1, H1e",Coding
+TC1900011255.hg.1,10.44,12.19,-3.35,0.0002,0.009,SIGLEC10,sialic acid binding Ig-like lectin 10,Multiple_Complex
+TC0100007333.hg.1,11.85,13.59,-3.33,0.0002,0.0094,PITHD1,PITH (C-terminal proteasome-interacting domain of thioredoxin-like) domain containing 1,Multiple_Complex
+TC1100012471.hg.1,13.04,14.09,-2.08,0.0002,0.0094,AMICA1,"adhesion molecule, interacts with CXADR antigen 1",Multiple_Complex
+TC0100015509.hg.1,6.51,5.37,2.2,0.0002,0.0094,FAM72B,"family with sequence similarity 72, member B",Multiple_Complex
+TC0800007057.hg.1,14.13,15.54,-2.65,0.0002,0.0101,DOCK5,dedicator of cytokinesis 5,Multiple_Complex
+TC1200008488.hg.1,13.7,14.85,-2.23,0.0002,0.0102,PLXNC1,plexin C1,Multiple_Complex
+TC0200015764.hg.1,10.48,11.79,-2.47,0.0002,0.0102,CNPPD1,cyclin Pas1/PHO80 domain containing 1,Multiple_Complex
+TC0100015891.hg.1,10.71,12.11,-2.65,0.0002,0.0102,CRTC2,CREB regulated transcription coactivator 2,Multiple_Complex
+TC0X00008108.hg.1,9.36,10.38,-2.01,0.0002,0.0102,TMEM164,transmembrane protein 164,Multiple_Complex
+TC2000008237.hg.1,11.99,10.04,3.86,0.0002,0.0103,MAVS,"Jeck2013 ANTISENSE, coding, INTERNAL, OVEXON, UTR3 best transcript NM_020746",NonCoding
+TC1200009846.hg.1,8.84,7.72,2.17,0.0002,0.0108,LINC00612,long intergenic non-protein coding RNA 612,Multiple_Complex
+TC0700012812.hg.1,15.06,17.04,-3.94,0.0002,0.0108,MKRN1,makorin ring finger protein 1,Multiple_Complex
+TC0500011478.hg.1,8.04,9.23,-2.28,0.0002,0.0108,KIAA0825,KIAA0825,Multiple_Complex
+TC1500010856.hg.1,7.71,10.2,-5.62,0.0002,0.0108,EPB42,erythrocyte membrane protein band 4.2,NonCoding
+TC1000008401.hg.1,9.91,8.29,3.07,0.0002,0.0109,IFIT5,interferon-induced protein with tetratricopeptide repeats 5,Coding
+TC0200014772.hg.1,11.7,10.12,2.98,0.0002,0.0109,IFIH1,"interferon induced, with helicase C domain 1",Multiple_Complex
+TC1800006650.hg.1,13.08,14.36,-2.43,0.0002,0.011,RAB31,"RAB31, member RAS oncogene family",Multiple_Complex
+TC1600007959.hg.1,7.32,5.7,3.07,0.0002,0.0114,MT1E,metallothionein 1E,Multiple_Complex
+TC1100010207.hg.1,6.44,7.64,-2.29,0.0002,0.0116,SOX6; MIR6073,SRY box 6; microRNA 6073,Multiple_Complex
+TC0100010855.hg.1,10.17,11.23,-2.09,0.0002,0.0118,NPL,N-acetylneuraminate pyruvate lyase (dihydrodipicolinate synthase),Multiple_Complex
+TC0100015364.hg.1,7.91,9.1,-2.28,0.0002,0.0122,TSPAN2,tetraspanin 2,Multiple_Complex
+TC0700009232.hg.1,10.06,12.25,-4.57,0.0002,0.0122,BPGM,"2,3-bisphosphoglycerate mutase",Coding
+TC0100010514.hg.1,7.82,9.43,-3.04,0.0003,0.0124,MPZL1,myelin protein zero-like 1,Multiple_Complex
+TC0X00010670.hg.1,5.93,4.81,2.17,0.0003,0.0125,TMEM255A,transmembrane protein 255A,Multiple_Complex
+TC1600009066.hg.1,8.61,9.68,-2.1,0.0003,0.0126,HAGH,hydroxyacylglutathione hydrolase,Multiple_Complex
+TC2200007069.hg.1,7.43,9.76,-5.03,0.0003,0.0127,OSBP2,oxysterol binding protein 2,Multiple_Complex
+TC1100012957.hg.1,12.75,11.01,3.34,0.0003,0.0127,TRIM22,tripartite motif containing 22,Multiple_Complex
+TC1000008399.hg.1,5.68,7.09,-2.66,0.0003,0.0128,IFIT1B,interferon-induced protein with tetratricopeptide repeats 1B,Coding
+TC0500006744.hg.1,7.45,8.51,-2.09,0.0003,0.0128,ROPN1L,rhophilin associated tail protein 1-like,Multiple_Complex
+TC2200007312.hg.1,9.69,8.64,2.07,0.0003,0.0132,LGALS1,"lectin, galactoside-binding, soluble, 1",Multiple_Complex
+TC0200015425.hg.1,9.47,10.61,-2.2,0.0003,0.0133,TRAK2,"trafficking protein, kinesin binding 2",Multiple_Complex
+TC1400009481.hg.1,6.54,7.91,-2.58,0.0003,0.0136,PLEK2,pleckstrin 2,Multiple_Complex
+TC1200006604.hg.1,8.56,9.7,-2.2,0.0003,0.0136,CD9,CD9 molecule,Multiple_Complex
+TC2000006501.hg.1,11.03,12.35,-2.49,0.0003,0.0137,SIRPA,signal-regulatory protein alpha,Coding
+TC1700010707.hg.1,8.56,7.32,2.35,0.0003,0.0143,DHX58,DEXH (Asp-Glu-X-His) box polypeptide 58,Multiple_Complex
+TC1600008005.hg.1,10.26,8.78,2.8,0.0003,0.0153,ADGRG1,adhesion G protein-coupled receptor G1,Multiple_Complex
+TC0300008705.hg.1,8.98,10.15,-2.24,0.0003,0.0154,ABTB1,ankyrin repeat and BTB (POZ) domain containing 1,Multiple_Complex
+TC0400009217.hg.1,8.41,9.67,-2.39,0.0004,0.0155,KLHL2,kelch-like family member 2,Multiple_Complex
+TC0800007738.hg.1,13.39,14.41,-2.02,0.0004,0.0156,SDCBP,syndecan binding protein,Multiple_Complex
+TC1400008763.hg.1,8.82,7.41,2.66,0.0004,0.0157,GZMH,granzyme H,Coding
+TC0100010252.hg.1,6.09,7.62,-2.9,0.0004,0.0162,FCER1A,"Fc fragment of IgE, high affinity I, receptor for; alpha polypeptide",Coding
+TC1900007025.hg.1,8.88,10.14,-2.4,0.0004,0.0164,PLPPR2,phospholipid phosphatase related 2,Multiple_Complex
+TC1400009973.hg.1,8.07,9.51,-2.71,0.0004,0.0165,RPS6KA5,"ribosomal protein S6 kinase, 90kDa, polypeptide 5",Multiple_Complex
+TC0200010416.hg.1,6.38,4.86,2.87,0.0004,0.0165,SPATS2L,"Transcript Identified by AceView, Entrez Gene ID(s) 26010",Unassigned
+TC0900011655.hg.1,9.86,11.25,-2.63,0.0004,0.0168,ZER1,"zyg-11 related, cell cycle regulator",Multiple_Complex
+TC1100010897.hg.1,14.72,12.65,4.2,0.0004,0.0168,UBE2L6,ubiquitin-conjugating enzyme E2L 6,Multiple_Complex
+TC0700012512.hg.1,7.94,8.97,-2.04,0.0004,0.0168,LRRC4,leucine rich repeat containing 4,Coding
+TC0800012470.hg.1,13.6,14.67,-2.1,0.0004,0.017,TMEM71,transmembrane protein 71,Multiple_Complex
+TC1100012019.hg.1,8.68,9.77,-2.14,0.0004,0.0173,SESN3,sestrin 3,Multiple_Complex
+TC2000008653.hg.1,6.77,7.95,-2.25,0.0004,0.0174,CD93,CD93 molecule,Multiple_Complex
+TC0100012734.hg.1,7.41,8.81,-2.64,0.0004,0.0174,TNFRSF9,"tumor necrosis factor receptor superfamily, member 9",Coding
+TC1800007518.hg.1,11.21,9.64,2.98,0.0004,0.0177,ZCCHC2,"zinc finger, CCHC domain containing 2",Multiple_Complex
+TC0500013155.hg.1,11.32,12.72,-2.64,0.0005,0.0178,BASP1,"brain abundant, membrane attached signal protein 1",Coding
+TC2200009248.hg.1,7.31,8.54,-2.35,0.0005,0.018,KREMEN1,kringle containing transmembrane protein 1,Multiple_Complex
+TC1500010857.hg.1,8.32,11.15,-7.13,0.0005,0.0183,EPB42,erythrocyte membrane protein band 4.2,Multiple_Complex
+TC0400011313.hg.1,13.69,15.78,-4.25,0.0005,0.0186,SNCA,synuclein alpha,Multiple_Complex
+TC0300008558.hg.1,11.52,10.21,2.46,0.0005,0.0191,DTX3L,"deltex 3 like, E3 ubiquitin ligase",Multiple_Complex
+TC0200008230.hg.1,12.79,11.66,2.2,0.0005,0.0191,TMSB10,thymosin beta 10,Multiple_Complex
+TC0200008351.hg.1,6.08,7.18,-2.15,0.0005,0.0198,RPIA,ribose 5-phosphate isomerase A,Multiple_Complex
+TC0400011013.hg.1,10.88,12.76,-3.67,0.0006,0.0204,PPBP,pro-platelet basic protein,Coding
+TC1200009196.hg.1,7.09,8.18,-2.13,0.0006,0.0204,MLXIP,MLX interacting protein,Multiple_Complex
+TC0500012781.hg.1,10.46,8.7,3.37,0.0006,0.0212,DOCK2,"Memczak2013 ANTISENSE, CDS, coding, INTERNAL best transcript NM_004946",NonCoding
+TC1600010651.hg.1,9.8,11.67,-3.67,0.0006,0.0215,RANBP10,RAN binding protein 10,Multiple_Complex
+TC1100007257.hg.1,9.87,11.33,-2.75,0.0006,0.0215,CAT,catalase,Multiple_Complex
+TC1500009636.hg.1,12.35,10.92,2.7,0.0006,0.0217,ANXA2,annexin A2,Multiple_Complex
+TSUnmapped00000050.hg.1,8.19,9.54,-2.55,0.0006,0.0217,MLXIP,MLX interacting protein,Coding
+TC1700008769.hg.1,8.22,9.57,-2.55,0.0006,0.022,KCNJ2,"potassium channel, inwardly rectifying subfamily J, member 2",Coding
+TC1600007235.hg.1,8.17,7.09,2.12,0.0006,0.022,PLK1,polo-like kinase 1,Multiple_Complex
+TC0100016971.hg.1,16.89,18,-2.17,0.0006,0.022,ADIPOR1,adiponectin receptor 1,Multiple_Complex
+TC0500011523.hg.1,7.22,6.16,2.09,0.0007,0.0223,LNPEP,"Memczak2013 ANTISENSE, coding, INTERNAL, UTR3 best transcript NM_175920",NonCoding
+TC0100013076.hg.1,8.44,10.05,-3.06,0.0007,0.0226,PADI2,"peptidyl arginine deiminase, type II",Multiple_Complex
+TC0300010775.hg.1,17.13,15.66,2.77,0.0007,0.0228,CX3CR1,chemokine (C-X3-C motif) receptor 1,Coding
+TC0800010252.hg.1,8.59,11.11,-5.74,0.0007,0.0229,ANK1,"ankyrin 1, erythrocytic",Multiple_Complex
+TC0900009882.hg.1,14.95,16.83,-3.69,0.0007,0.0233,DCAF12,DDB1 and CUL4 associated factor 12,Multiple_Complex
+TC1600007957.hg.1,16.17,13.82,5.1,0.0007,0.0234,MT2A,metallothionein 2A,Multiple_Complex
+TC1900008558.hg.1,6.88,8,-2.17,0.0007,0.0234,MED25; MIR6800,mediator complex subunit 25; microRNA 6800,Multiple_Complex
+TC1200009913.hg.1,15.27,17.08,-3.5,0.0007,0.0234,YBX3,Y box binding protein 3,Multiple_Complex
+TC0700012797.hg.1,12.79,11.51,2.42,0.0007,0.0237,PARP12,poly(ADP-ribose) polymerase family member 12,Multiple_Complex
+TC0900008150.hg.1,8.59,10.32,-3.31,0.0008,0.0241,TMOD1,tropomodulin 1,Multiple_Complex
+TC2200007273.hg.1,13.6,14.9,-2.45,0.0008,0.0247,CSF2RB,"colony stimulating factor 2 receptor, beta, low-affinity (granulocyte-macrophage)",Multiple_Complex
+TC0300013420.hg.1,8.91,10.22,-2.49,0.0008,0.0249,IGF2BP2,insulin-like growth factor 2 mRNA binding protein 2,Multiple_Complex
+TC0700013441.hg.1,10.31,11.48,-2.26,0.0008,0.0258,IFRD1,interferon-related developmental regulator 1,Multiple_Complex
+TC0200010448.hg.1,14.9,17.68,-6.87,0.0009,0.0265,STRADB,STE20-related kinase adaptor beta,Multiple_Complex
+TC1000008397.hg.1,13.26,10.08,9.08,0.0009,0.0267,IFIT3,interferon-induced protein with tetratricopeptide repeats 3,Coding
+TC0200015402.hg.1,10.92,11.95,-2.03,0.0009,0.0268,FAM126B,"family with sequence similarity 126, member B",Multiple_Complex
+TC0400010940.hg.1,9.1,10.4,-2.45,0.0009,0.027,SULT1B1,sulfotransferase family 1B member 1,Coding
+TC0300012813.hg.1,8.81,10.18,-2.59,0.0009,0.0275,P2RY14,"purinergic receptor P2Y, G-protein coupled, 14",Coding
+TC0600014328.hg.1,11.49,10.49,2,0.001,0.0282,OSTM1,osteopetrosis associated transmembrane protein 1,Multiple_Complex
+TC1700009318.hg.1,10.42,11.64,-2.33,0.001,0.0283,FAM101B,"family with sequence similarity 101, member B",Multiple_Complex
+TC0100011855.hg.1,11.73,12.91,-2.27,0.001,0.0284,GUK1,guanylate kinase 1,Multiple_Complex
+TC0400011014.hg.1,6.91,7.92,-2.03,0.001,0.0285,CXCL5,chemokine (C-X-C motif) ligand 5,Multiple_Complex
+TC2000007859.hg.1,13.03,14.94,-3.76,0.001,0.029,RBM38,RNA binding motif protein 38,Multiple_Complex
+TC0100006881.hg.1,14.72,13.58,2.2,0.001,0.029,TNFRSF1B; MIR4632; MIR7846,"tumor necrosis factor receptor superfamily, member 1B; microRNA 4632; microRNA 7846",Multiple_Complex
+TC0100016678.hg.1,13.26,14.55,-2.45,0.001,0.0292,FAM129A,"family with sequence similarity 129, member A",Multiple_Complex
+TC0400011748.hg.1,7.19,6.16,2.05,0.0011,0.0298,CCNA2,cyclin A2,Multiple_Complex
+TC0700010185.hg.1,11.42,13.07,-3.13,0.0011,0.0298,EIF2AK1,eukaryotic translation initiation factor 2-alpha kinase 1,Multiple_Complex
+TC1200010908.hg.1,9.8,8.31,2.82,0.0011,0.0299,STAT2,signal transducer and activator of transcription 2,Multiple_Complex
+TC0400012018.hg.1,6.54,8.32,-3.44,0.0011,0.03,GYPB,glycophorin B (MNS blood group),Multiple_Complex
+TC0800009231.hg.1,9.83,11.29,-2.75,0.0011,0.03,GRINA,"glutamate receptor, ionotropic, N-methyl D-aspartate-associated protein 1 (glutamate binding)",Multiple_Complex
+TC1900009346.hg.1,8.66,10.09,-2.7,0.0011,0.0301,UBXN6,UBX domain protein 6,Multiple_Complex
+TC1600009446.hg.1,11.92,12.97,-2.06,0.0011,0.0302,CPPED1,calcineurin-like phosphoesterase domain containing 1,Multiple_Complex
+TC0100008271.hg.1,10.02,11.42,-2.63,0.0011,0.0303,RNF11,ring finger protein 11,Multiple_Complex
+TC1900011004.hg.1,7.23,8.25,-2.02,0.0011,0.0306,SLC1A5,"solute carrier family 1 (neutral amino acid transporter), member 5",Multiple_Complex
+TC1900006470.hg.1,13.92,15.74,-3.53,0.0012,0.0307,BSG,basigin (Ok blood group),Multiple_Complex
+TC0400008106.hg.1,10.64,8.3,5.07,0.0012,0.031,HERC5,HECT and RLD domain containing E3 ubiquitin protein ligase 5,Multiple_Complex
+TC0200008663.hg.1,9.51,11.54,-4.06,0.0012,0.0313,IL1R2,"interleukin 1 receptor, type II",Multiple_Complex
+TC0100015921.hg.1,10.68,9.63,2.07,0.0012,0.032,ADAR,"adenosine deaminase, RNA-specific",Multiple_Complex
+TC0700009411.hg.1,9.01,10.82,-3.52,0.0013,0.0329,MGAM2,maltase-glucoamylase 2 (putative),Multiple_Complex
+TC1700006709.hg.1,9.77,7.75,4.05,0.0013,0.033,XAF1,XIAP associated factor 1,Multiple_Complex
+TC0200012257.hg.1,13.35,11.46,3.71,0.0013,0.033,EIF2AK2,eukaryotic translation initiation factor 2-alpha kinase 2,Multiple_Complex
+TC2000007686.hg.1,11.42,12.7,-2.43,0.0013,0.0331,LINC01272,long intergenic non-protein coding RNA 1272,Multiple_Complex
+TC0700013428.hg.1,11.63,12.63,-2.01,0.0013,0.0332,PILRB; STAG3L5P; PVRIG2P; MIR6840; STAG3L5P-PVRIG2P-PILRB,"paired immunoglobin-like type 2 receptor beta; stromal antigen 3-like 5 pseudogene; poliovirus receptor related immunoglobulin domain containing 2, pseudogene; microRNA 6840; STAG3L5P-PVRIG2P-PILRB readthrough",Multiple_Complex
+TC0300012728.hg.1,13.03,10.98,4.14,0.0013,0.0335,PLSCR1,phospholipid scramblase 1,Multiple_Complex
+TC1700007779.hg.1,11.02,12.22,-2.3,0.0014,0.0348,MSL1,male-specific lethal 1 homolog (Drosophila),Multiple_Complex
+TC1200012080.hg.1,7.66,9.04,-2.61,0.0014,0.0351,TESC,tescalcin,Multiple_Complex
+TC0400006987.hg.1,12.72,11.07,3.14,0.0017,0.0394,LAP3,leucine aminopeptidase 3,Multiple_Complex
+TC1600011399.hg.1,12.35,10.62,3.33,0.0018,0.04,MT1X,metallothionein 1X,Multiple_Complex
+TC0700009499.hg.1,4.48,5.75,-2.41,0.0018,0.0405,TAS2R60,"taste receptor, type 2, member 60",Coding
+TC1700010221.hg.1,6.98,8.09,-2.15,0.0018,0.0406,DHRS13,dehydrogenase/reductase (SDR family) member 13,Multiple_Complex
+TC0400007120.hg.1,9.21,10.22,-2.03,0.0019,0.0411,RBPJ,recombination signal binding protein for immunoglobulin kappa J region,Multiple_Complex
+TC0200013616.hg.1,8.23,9.25,-2.02,0.0019,0.0416,AFF3,"AF4/FMR2 family, member 3",Multiple_Complex
+TC0200009189.hg.1,13.77,15.18,-2.66,0.002,0.0425,GYPC,glycophorin C (Gerbich blood group),Multiple_Complex
+TC0100010078.hg.1,11.38,12.4,-2.02,0.002,0.0429,IL6R,interleukin 6 receptor,Multiple_Complex
+TC1200006450.hg.1,10.64,11.96,-2.5,0.002,0.0431,WNK1,WNK lysine deficient protein kinase 1,Multiple_Complex
+TC0100010155.hg.1,12.84,14.1,-2.4,0.0021,0.0437,SEMA4A,"sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4A",Multiple_Complex
+TC0800010990.hg.1,11.39,13.92,-5.77,0.0021,0.0438,CA1,carbonic anhydrase I,Multiple_Complex
+TC0600010066.hg.1,10.63,11.94,-2.48,0.0022,0.0454,IGF2R,insulin-like growth factor 2 receptor,Multiple_Complex
+TC0300012403.hg.1,7.68,8.72,-2.05,0.0024,0.0482,TMCC1,transmembrane and coiled-coil domain family 1,Multiple_Complex
+TC1200007764.hg.1,9.13,7.65,2.78,0.0024,0.0483,ZNF385A,"Memczak2013 ANTISENSE, CDS, coding, INTERNAL best transcript NM_001130967",NonCoding
+TC2200007138.hg.1,17.67,18.88,-2.31,0.0025,0.0488,FBXO7,F-box protein 7,Multiple_Complex
+TC0500007758.hg.1,7.19,8.39,-2.29,0.0026,0.05,FCHO2,FCH domain only 2,Multiple_Complex
+TC1000010022.hg.1,15.29,16.54,-2.37,0.0027,0.0516,PIP4K2A,"phosphatidylinositol-5-phosphate 4-kinase, type II, alpha",Multiple_Complex
+TC1600007964.hg.1,13.82,11.85,3.92,0.0027,0.0517,MT1B; MT1CP,"metallothionein 1B; metallothionein 1C, pseudogene",Multiple_Complex
+TC1600007966.hg.1,7.61,6.02,3,0.0028,0.0523,MT1H,metallothionein 1H,Multiple_Complex
+TC0600011658.hg.1,6.51,5.44,2.11,0.0028,0.0528,ETV7,ets variant 7,Coding
+TC0600008622.hg.1,6.95,8.07,-2.16,0.0029,0.0537,SH3BGRL2,SH3 domain binding glutamate-rich protein like 2,Multiple_Complex
+TC1100007899.hg.1,10.37,9.3,2.1,0.003,0.0549,RARRES3,retinoic acid receptor responder (tazarotene induced) 3,Multiple_Complex
+TC0100013651.hg.1,7.95,9.25,-2.46,0.003,0.0549,PHC2; MIR3605,polyhomeotic homolog 2 (Drosophila); microRNA 3605,Multiple_Complex
+TC0100015784.hg.1,7.73,9.5,-3.43,0.0031,0.0564,SELENBP1,selenium binding protein 1,Multiple_Complex
+TC1400008098.hg.1,10.68,12.25,-2.96,0.0032,0.057,GLRX5,glutaredoxin 5,Multiple_Complex
+TC1900010708.hg.1,9.04,10.87,-3.57,0.0032,0.0578,BLVRB,biliverdin reductase B,Multiple_Complex
+TC2200008411.hg.1,11.41,12.84,-2.69,0.0033,0.0582,ASCC2,activating signal cointegrator 1 complex subunit 2,Multiple_Complex
+TC1200009375.hg.1,10.17,11.22,-2.07,0.0035,0.0607,GLT1D1,glycosyltransferase 1 domain containing 1,Multiple_Complex
+TC0400012902.hg.1,10.34,8.65,3.24,0.0036,0.0616,FGFBP2,fibroblast growth factor binding protein 2,Coding
+TC0100009866.hg.1,11.52,12.71,-2.29,0.0038,0.0639,FCGR1A,"Fc fragment of IgG, high affinity Ia, receptor (CD64)",Multiple_Complex
+TC1600009422.hg.1,11.59,13.61,-4.05,0.0039,0.0642,GSPT1,G1 to S phase transition 1,Multiple_Complex
+TC0100014849.hg.1,10.34,9.34,2,0.0039,0.0645,GBP3,guanylate binding protein 3,Multiple_Complex
+TC1600011186.hg.1,7.03,8.1,-2.1,0.0039,0.0645,SLC7A5,"solute carrier family 7 (amino acid transporter light chain, L system), member 5",Multiple_Complex
+TC2200007214.hg.1,10.61,9.58,2.04,0.0039,0.065,APOL6,"apolipoprotein L, 6",Multiple_Complex
+TC1200009461.hg.1,9.3,10.36,-2.08,0.0041,0.0662,EP400; SNORA49,"E1A binding protein p400; small nucleolar RNA, H/ACA box 49",Multiple_Complex
+TC2200008874.hg.1,9.7,10.7,-2.01,0.0042,0.0674,NFAM1,NFAT activating protein with ITAM motif 1,Multiple_Complex
+TC2200008062.hg.1,6.68,5.44,2.36,0.0042,0.0676,CRKL,"Memczak2013 ANTISENSE, CDS, coding, INTERNAL best transcript NM_005207",NonCoding
+TC1100006487.hg.1,10.8,11.87,-2.09,0.0043,0.0679,TALDO1,transaldolase 1,Multiple_Complex
+TC0100014852.hg.1,12.91,10.89,4.06,0.0043,0.0679,GBP1,"guanylate binding protein 1, interferon-inducible",Multiple_Complex
+TC1500007355.hg.1,15.78,16.79,-2.02,0.0043,0.0684,AQP9,aquaporin 9,Multiple_Complex
+TC0X00009611.hg.1,10.98,12.47,-2.82,0.0044,0.0692,SLC38A5,"solute carrier family 38, member 5",Multiple_Complex
+TC0700013472.hg.1,10.73,12.34,-3.05,0.0045,0.0702,MGAM,maltase-glucoamylase,Multiple_Complex
+TC0500012567.hg.1,11.81,14.63,-7.07,0.0047,0.0718,FAXDC2,fatty acid hydroxylase domain containing 2,Multiple_Complex
+TC0200006627.hg.1,12.23,11.07,2.24,0.0047,0.072,ID2,"inhibitor of DNA binding 2, dominant negative helix-loop-helix protein",Multiple_Complex
+TC1700007402.hg.1,10.95,9.82,2.19,0.0047,0.0722,FLOT2,"Memczak2013 ANTISENSE, coding, INTERNAL, UTR3 best transcript NM_004475",NonCoding
+TC0100012328.hg.1,9.62,10.83,-2.32,0.0048,0.0724,TRIM58,tripartite motif containing 58,Multiple_Complex
+TC0400012990.hg.1,15.84,14.5,2.54,0.005,0.074,DDX60L,DEAD (Asp-Glu-Ala-Asp) box polypeptide 60-like,Multiple_Complex
+TC1900009947.hg.1,8.38,6.82,2.95,0.0051,0.075,MYO9B,"Memczak2013 ANTISENSE, CDS, coding, INTERNAL best transcript NM_004145",NonCoding
+TC1100012166.hg.1,6.68,7.76,-2.1,0.0052,0.0758,CASP5,caspase 5,Multiple_Complex
+TC1200011598.hg.1,9.3,10.36,-2.09,0.0056,0.0791,HAL,histidine ammonia-lyase,Multiple_Complex
+TC1900011653.hg.1,10.07,11.4,-2.51,0.0058,0.0808,MCOLN1,mucolipin 1,Multiple_Complex
+TC1800006915.hg.1,6.11,7.17,-2.09,0.0059,0.0814,HRH4,histamine receptor H4,Coding
+TC0100014081.hg.1,7.56,9.65,-4.26,0.0059,0.0814,PDZK1IP1,PDZK1 interacting protein 1,Multiple_Complex
+TC0800012469.hg.1,8.37,9.49,-2.18,0.0059,0.0814,TMEM71,transmembrane protein 71,NonCoding
+TC1900009859.hg.1,13.67,14.71,-2.05,0.006,0.0814,BRD4,bromodomain containing 4,Multiple_Complex
+TC0100009482.hg.1,7.22,8.31,-2.13,0.0065,0.0858,HIPK1,"Memczak2013 ALT_DONOR, coding, INTERNAL, intronic best transcript NM_198268",NonCoding
+TC1700007014.hg.1,15.29,16.46,-2.25,0.0068,0.0874,UBB,ubiquitin B,Multiple_Complex
+TC1400006663.hg.1,12.83,13.94,-2.16,0.0069,0.0875,LRP10,LDL receptor related protein 10,Multiple_Complex
+TC1200006773.hg.1,8.65,7.28,2.59,0.0069,0.088,KLRF1,"killer cell lectin-like receptor subfamily F, member 1",Multiple_Complex
+TC1400008635.hg.1,8.26,9.3,-2.05,0.0076,0.093,RAB2B,"RAB2B, member RAS oncogene family",Multiple_Complex
+TC1900011382.hg.1,10.54,9.2,2.54,0.0076,0.0931,MYADM,"Memczak2013 ANTISENSE, CDS, coding, INTERNAL best transcript NM_001020819",NonCoding
+TC1600007962.hg.1,13.92,12.15,3.43,0.0077,0.0935,MT1A,metallothionein 1A,Coding
+TC1000008400.hg.1,10.39,7.19,9.23,0.0081,0.097,IFIT1,interferon-induced protein with tetratricopeptide repeats 1,Coding
+TC1400006540.hg.1,12.32,10.77,2.93,0.0082,0.0977,RNASE2,"ribonuclease, RNase A family, 2 (liver, eosinophil-derived neurotoxin)",Coding
+TC0500007772.hg.1,9.28,10.8,-2.86,0.0083,0.0982,BTF3,basic transcription factor 3,Multiple_Complex
+TC0400012015.hg.1,7.89,9.08,-2.29,0.0085,0.0998,GYPE,glycophorin E (MNS blood group),Multiple_Complex
+TC2000007925.hg.1,10.47,11.86,-2.62,0.0086,0.0999,TUBB1,"tubulin, beta 1 class VI",Coding
+TC0200013916.hg.1,11.56,12.64,-2.11,0.0087,0.1005,IL1B,interleukin 1 beta,Multiple_Complex
+TC0600007864.hg.1,8.06,9.07,-2.01,0.0087,0.1006,TBC1D22B,"TBC1 domain family, member 22B",Multiple_Complex
+TC0900009950.hg.1,9.74,10.87,-2.19,0.0091,0.1028,TLN1; MIR6852,talin 1; microRNA 6852,Multiple_Complex
+TC1700012216.hg.1,14.8,13.63,2.25,0.0091,0.1028,LGALS9,"lectin, galactoside-binding, soluble, 9",Multiple_Complex
+TC0100013724.hg.1,15.52,16.7,-2.26,0.0092,0.1032,CSF3R,colony stimulating factor 3 receptor,Multiple_Complex
+TC1600010421.hg.1,11.14,9.8,2.54,0.0099,0.1069,MT1G,metallothionein 1G,Coding
+TC0700012584.hg.1,11.25,12.62,-2.58,0.0105,0.1095,UBE2H,ubiquitin conjugating enzyme E2H,Multiple_Complex
+TC0200015242.hg.1,16.72,15.27,2.73,0.0105,0.1095,STAT1,signal transducer and activator of transcription 1,Multiple_Complex
+TC2000009317.hg.1,11.55,12.75,-2.29,0.0115,0.1159,SULF2,sulfatase 2,Multiple_Complex
+TC0100009341.hg.1,6.44,7.75,-2.47,0.0121,0.1198,KIAA1324,KIAA1324,Multiple_Complex
+TC0700012182.hg.1,12.33,13.55,-2.33,0.0124,0.1213,NAMPT,nicotinamide phosphoribosyltransferase,Multiple_Complex
+TC1200006788.hg.1,13.42,12.19,2.35,0.0127,0.1226,KLRD1,"killer cell lectin-like receptor subfamily D, member 1",Multiple_Complex
+TC1700010820.hg.1,13.26,14.81,-2.95,0.0127,0.1226,SLC4A1,"solute carrier family 4 (anion exchanger), member 1 (Diego blood group)",Multiple_Complex
+TC0100011022.hg.1,11.9,13.31,-2.66,0.0146,0.1336,RGS2,regulator of G-protein signaling 2,Multiple_Complex
+TC1600008928.hg.1,11.19,12.71,-2.87,0.0146,0.1336,NPRL3,"NPR3-like, GATOR1 complex subunit",Multiple_Complex
+TC1600007958.hg.1,12.84,11.41,2.68,0.015,0.1356,MT1L,metallothionein 1L (gene/pseudogene),Multiple_Complex
+TC0700011797.hg.1,13.98,12.56,2.68,0.0152,0.1364,SAMD9L,sterile alpha motif domain containing 9-like,Multiple_Complex
+TC1100007684.hg.1,9.17,7.17,3.99,0.0153,0.1368,SERPING1,"serpin peptidase inhibitor, clade G (C1 inhibitor), member 1",Multiple_Complex
+TC0400012621.hg.1,12.9,14.09,-2.29,0.0154,0.1371,ACSL1,acyl-CoA synthetase long-chain family member 1,Multiple_Complex
+TC0900009825.hg.1,11.98,10.9,2.13,0.0155,0.1372,DDX58,DEAD (Asp-Glu-Ala-Asp) box polypeptide 58,Multiple_Complex
+TC2000008242.hg.1,12.57,13.6,-2.04,0.0158,0.1391,RNF24,ring finger protein 24,Multiple_Complex
+TC0700011796.hg.1,11.13,9.51,3.08,0.0159,0.1395,SAMD9,sterile alpha motif domain containing 9,Coding
+TC0Y00006629.hg.1,7.42,6.09,2.52,0.0163,0.1412,USP9Y; TTTY15,"ubiquitin specific peptidase 9, Y-linked; testis-specific transcript, Y-linked 15 (non-protein coding)",Multiple_Complex
+TC2000008815.hg.1,11.01,12.65,-3.1,0.0165,0.1417,BCL2L1,BCL2-like 1,Multiple_Complex
+TC1200009807.hg.1,9.81,8.7,2.15,0.0168,0.1428,C3AR1,complement component 3a receptor 1,Coding
+TC0100011417.hg.1,10.82,11.84,-2.02,0.0175,0.1466,CR1L,complement component (3b/4b) receptor 1-like,Multiple_Complex
+TC0Y00006528.hg.1,8.25,7.22,2.05,0.018,0.1487,PRKY,"protein kinase, Y-linked, pseudogene",Multiple_Complex
+TC1700008123.hg.1,7.18,8.51,-2.51,0.0183,0.1498,MYL4,myosin light chain 4,Multiple_Complex
+TC0700009493.hg.1,11.4,12.6,-2.3,0.021,0.1616,ZYX,zyxin,Multiple_Complex
+TC1300008892.hg.1,9.76,8.61,2.22,0.0215,0.1641,LPAR6,lysophosphatidic acid receptor 6,Multiple_Complex
+TC1700010826.hg.1,9.19,10.36,-2.26,0.0216,0.1644,SLC25A39,"solute carrier family 25, member 39",Multiple_Complex
+TC1200009132.hg.1,12.34,13.71,-2.57,0.0216,0.1646,RNF10,ring finger protein 10,Multiple_Complex
+TC0100014531.hg.1,7.87,9.24,-2.58,0.0223,0.1682,WLS,wntless Wnt ligand secretion mediator,Multiple_Complex
+TC0200014154.hg.1,4.52,5.57,-2.06,0.023,0.1709,GYPC,"Memczak2013 ANTISENSE, coding, INTERNAL, UTR3 best transcript NM_016815",NonCoding
+TC1000012011.hg.1,8.77,9.77,-2.01,0.0239,0.1739,RGS10,regulator of G-protein signaling 10,Multiple_Complex
+TC0100010648.hg.1,11.08,12.11,-2.03,0.024,0.1745,PRDX6,peroxiredoxin 6,Multiple_Complex
+TC0400007839.hg.1,10.91,11.95,-2.05,0.0258,0.1818,PF4V1,platelet factor 4 variant 1,Coding
+TC1100013133.hg.1,11.3,13.26,-3.9,0.0262,0.1829,HBG2; HBG1,"hemoglobin, gamma G; hemoglobin, gamma A",Multiple_Complex
+TC0300012191.hg.1,13.41,12.3,2.16,0.0268,0.1853,PARP9,poly(ADP-ribose) polymerase family member 9,Multiple_Complex
+TC1700006751.hg.1,10.52,11.54,-2.03,0.027,0.1858,POLR2A,"polymerase (RNA) II (DNA directed) polypeptide A, 220kDa",Multiple_Complex
+TC0100016983.hg.1,8.75,10.2,-2.73,0.027,0.1858,CHI3L1,chitinase 3-like 1 (cartilage glycoprotein-39),Multiple_Complex
+TC0400011012.hg.1,10.05,11.57,-2.87,0.0279,0.1895,PF4,platelet factor 4,Coding
+TC0700011318.hg.1,8.9,10.14,-2.36,0.028,0.1897,ERV3-1; ZNF117,"endogenous retrovirus group 3, member 1; zinc finger protein 117",Multiple_Complex
+TC1000008396.hg.1,11.09,9.48,3.06,0.0315,0.2015,IFIT2,interferon-induced protein with tetratricopeptide repeats 2,Coding
+TC0600007598.hg.1,13.59,14.62,-2.03,0.0411,0.2334,AIF1,allograft inflammatory factor 1,Multiple_Complex
