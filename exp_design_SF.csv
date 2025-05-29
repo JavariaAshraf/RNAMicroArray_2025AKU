@@ -1,0 +1,13 @@
+sample_ID,genotype,celltype,group
+sample1,Wt,typeA,treat
+sample2,Wt,typeA,treat
+sample3,Wt,typeA,dis
+sample4,KO,typeA,dis
+sample5,KO,typeA,treat
+sample6,KO,typeA,dis
+sample7,Wt,typeB,treat
+sample8,Wt,typeB,treat
+sample9,Wt,typeB,dis
+sample10,KO,typeB,dis
+sample11,KO,typeB,treat
+sample12,KO,typeB,dis
