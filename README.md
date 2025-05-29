@@ -63,11 +63,8 @@ BiocManager::install("rWikiPathways")
 library(rWikiPathways)
 library(DOSE)
 library(clusterProfiler)
-install.packages('devtools')
-require(devtools)
 library(org.Hs.eg.db)
 library(enrichplot)
-library(rWikiPathways)
 setwd("C:/Path to Folder Workshop")
  ```
 
